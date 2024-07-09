@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 
-import { getDataset, parseMultipleItems } from './lib/utils';
+import { getDataset } from './lib/utils';
 import ItemCard, { Item } from './components/ItemCard';
 import { Toaster } from './components/ui/toaster';
 

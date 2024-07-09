@@ -52,7 +52,7 @@ export const upload = async (str:object) => {
   const json = JSON.stringify(str)
   const blob = new Blob([ json ], { type: 'application/json' })
   
-  const { data, error } = await supabase.storage.from('demo123334fdfdsa').upload('data.json', blob, {
+ await supabase.storage.from('demo123334fdfdsa').upload('data.json', blob, {
     upsert: true,
   })
   const { data: data2 } = await supabase.storage.from('demo123334fdfdsa').download('data.json');
@@ -63,7 +63,7 @@ export const upload = async (str:object) => {
 }
 
 export const getDataset = async () => { 
-  const { data, error } = await supabase.storage.from('demo123334fdfdsa').download('data.json');
+  const { data } = await supabase.storage.from('demo123334fdfdsa').download('data.json');
   const text = await data?.text();
   return JSON.parse(text || '{}');
 }
