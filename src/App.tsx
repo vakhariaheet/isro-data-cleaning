@@ -15,20 +15,26 @@ function App() {
   useEffect(() => {
     (async () => { 
       const resp = (await getDataset());
-      supabase.channel('items').on('postgres_changes', { event: '*', schema: '*' }, (payload) => {
-        if (payload.eventType === 'UPDATE') {
-          const updatedItem = payload.new as Item;
-          console.log('updatedItem',updatedItem);
-          const updatedItemIndex = dataset.findIndex((item) => item.id === updatedItem.id);
-          const updatedDataset = [ ...dataset ];
-          updatedDataset[ updatedItemIndex ] = updatedItem;
-          setDataset(updatedDataset);
-        } 
-      }).subscribe();
       if(!resp) return;
       setDataset(resp);
     })()
-  },[])
+  }, [])
+  
+  useEffect(() => {
+    if(dataset.length === 0) return;
+    supabase.channel('items').on('postgres_changes', { event: '*', schema: '*' }, (payload) => {
+      if (payload.eventType === 'UPDATE') {
+        const updatedItem = payload.new as Item;
+        
+        const updatedItemIndex = dataset.findIndex((item) => item.id === updatedItem.id);
+      
+      
+        const updatedDataset = [ ...dataset ];
+        updatedDataset[ updatedItemIndex ] = updatedItem;
+        setDataset(updatedDataset);
+      } 
+    }).subscribe();
+   }, [])
   
 	return (
 		<div className='grid grid-cols-3 gap-4 p-4'>

@@ -69,6 +69,6 @@ export const getDataset = async () => {
 export const getFormattedDate = (date: string) => { 
   const d = new Date(date);
   
-  return `${d.getDate()}/${d.getMonth()}/${d.getFullYear()} ${d.getHours() % 12}:${d.getMinutes()}:${d.getSeconds()} ${d.getHours() > 12 ? 'PM' : 'AM'}`;
+  return `${d.getDate().toString().padStart(2,'0')}/${d.getMonth().toString().padStart(2,'0')}/${d.getFullYear()} ${(d.getHours() % 12).toString().padStart(2,'0')}:${d.getMinutes().toString().padStart(2,'0')}:${d.getSeconds().toString().padStart(2,'0')} ${d.getHours() > 12 ? 'PM' : 'AM'}`;
 }
 
