@@ -3,17 +3,18 @@ import { twMerge } from "tailwind-merge"
 import {
   createClient
 } from '@supabase/supabase-js';
+import { Item } from "../components/ItemCard";
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-type Item = [
+type OgItem = [
 	string,
 	{
 		entities: [number, number, 'ACTION' | 'MAP_TYPE' | 'GPE'][];
 	},
 ];
-export function parseItem(item: Item) {
+export function parseItem(item: OgItem) {
   return {
 
     transcript: item[ 0 ],
@@ -37,7 +38,7 @@ export function getOriginalItem(item: ReturnType<typeof parseItem>) {
   ]
 }
 
-export function parseMultipleItems(items: Item[]) {
+export function parseMultipleItems(items: OgItem[]) {
   return items.map(parseItem);
 }
 
@@ -48,7 +49,7 @@ export const supabaseUrl = 'https://opjcgijetlvuubdfzgwm.supabase.co'
 export const supabaseKey = import.meta.env.VITE_SUPABASE_KEY as string;
 export const supabase = createClient(supabaseUrl, supabaseKey);
 
-export const updateSingleItem = async (itemId: number, item:any) => { 
+export const updateSingleItem = async (itemId: number, item:Partial<Item>) => { 
   console.log('item',item);
   const { data,error } = await supabase.from('items').update({
     ...item
