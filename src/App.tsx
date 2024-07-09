@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 
-import { getDataset } from './lib/utils';
+import { getDataset, supabase } from './lib/utils';
 import ItemCard, { Item } from './components/ItemCard';
 import { Toaster } from './components/ui/toaster';
 
@@ -15,7 +15,17 @@ function App() {
   useEffect(() => {
     (async () => { 
       const resp = (await getDataset());
-      console.log('resp', resp)
+      supabase.channel('items').on('postgres_changes', { event: '*', schema: '*' }, (payload) => {
+        if (payload.eventType === 'UPDATE') {
+          const updatedItem = payload.new as Item;
+          console.log('updatedItem',updatedItem);
+          const updatedItemIndex = dataset.findIndex((item) => item.id === updatedItem.id);
+          const updatedDataset = [ ...dataset ];
+          updatedDataset[ updatedItemIndex ] = updatedItem;
+          setDataset(updatedDataset);
+        } 
+      }).subscribe();
+      if(!resp) return;
       setDataset(resp);
     })()
   },[])

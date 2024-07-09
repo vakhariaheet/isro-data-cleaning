@@ -15,6 +15,7 @@ type Item = [
 ];
 export function parseItem(item: Item) {
   return {
+
     transcript: item[ 0 ],
     entities: item[ 1 ].entities.map(([ start,end, type ]) => ({
       value: item[ 0 ].slice(start, end),
@@ -43,33 +44,30 @@ export function parseMultipleItems(items: Item[]) {
 export function getOriginalMultipleItems(items: ReturnType<typeof parseMultipleItems>) {
   return items.map(getOriginalItem);
 }
-const supabaseUrl = 'https://opjcgijetlvuubdfzgwm.supabase.co'
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY as string;
-const supabase = createClient(supabaseUrl, supabaseKey);
+export const supabaseUrl = 'https://opjcgijetlvuubdfzgwm.supabase.co'
+export const supabaseKey = import.meta.env.VITE_SUPABASE_KEY as string;
+export const supabase = createClient(supabaseUrl, supabaseKey);
 
-export const upload = async (str:object) => {
-  console.log('uploading')
-  const json = JSON.stringify(str)
-  const blob = new Blob([ json ], { type: 'application/json' })
-  
- await supabase.storage.from('demo123334fdfdsa').upload('data.json', blob, {
-    upsert: true,
+export const updateSingleItem = async (itemId: number, item:any) => { 
+  console.log('item',item);
+  const { data,error } = await supabase.from('items').update({
+    ...item
   })
-  const { data: data2 } = await supabase.storage.from('demo123334fdfdsa').download('data.json');
-  const text = await data2?.text();
-
-
-  return JSON.parse(text || '{}');  
+    .eq('id', itemId).select();
+  console.log('data',data,error,itemId);
+  return data;
 }
 
+
 export const getDataset = async () => { 
-  const { data } = await supabase.storage.from('demo123334fdfdsa').download('data.json');
-  const text = await data?.text();
-  return JSON.parse(text || '{}');
+  const { data } = await supabase.from('items').select('*').order('id');
+  
+  return data;
 }
 
 export const getFormattedDate = (date: string) => { 
-  const d = new Date(Number(date));
-  console.log('date', d,date)
+  const d = new Date(date);
+  
   return `${d.getDate()}/${d.getMonth()}/${d.getFullYear()} ${d.getHours() % 12}:${d.getMinutes()}:${d.getSeconds()} ${d.getHours() > 12 ? 'PM' : 'AM'}`;
 }
+

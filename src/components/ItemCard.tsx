@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useState } from 'react';
-import { getFormattedDate, parseItem, upload } from '../lib/utils';
+import { getFormattedDate, parseItem, updateSingleItem } from '../lib/utils';
 import {
 	Card,
 	CardContent,
@@ -15,14 +15,14 @@ import { useToast } from './ui/use-toast';
 import { Alert, AlertDescription, AlertTitle } from './ui/alert';
 
 export interface Item extends ReturnType<typeof parseItem> {
+    id: number;
 	last_updated?: string;
 }
 
 const ItemCard = ({
 	item,
 	index,
-	setDataset,
-	dataset,
+
 }: {
 	item: Item;
 	index: number;
@@ -37,18 +37,13 @@ const ItemCard = ({
 			toast({
 				title: 'Saving File',
 				description:
-					'Please wait and do not make any changes since it may cause data loss',
+					'Please wait while we save the file. This may take a few seconds.',
 			});
 			setIsLoading(true);
-			const updatedDataset = [...dataset];
-			updatedDataset[index] = {
-				...item,
-				entities,
-				last_updated: Date.now().toString(),
-			};
-			setDataset(updatedDataset);
-			const resp = await upload(updatedDataset);
-			setDataset(resp);
+            await updateSingleItem(item.id, {
+                entities: entities,
+                last_updated: new Date().toISOString(),
+            })	
 			setIsLoading(false);
 			toast({
 				title: 'Success',
@@ -68,7 +63,7 @@ const ItemCard = ({
 	return (
 		<Card>
 			<CardHeader>
-				<CardTitle>{item.transcript}</CardTitle>
+				<CardTitle>{index + 1}. {item.transcript}</CardTitle>
 			</CardHeader>
 			<CardContent>
 				{entities.map((entity, index) => (
@@ -130,7 +125,8 @@ const ItemCard = ({
 				)}
 			</CardContent>
 			<CardFooter>
-				<Button
+                <Button
+                    className='mr-4'
 					onClick={() => {
 						setEntities([
 							...entities,
