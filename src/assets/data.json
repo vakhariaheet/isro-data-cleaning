@@ -1,0 +1,5314 @@
+[
+	["Zoom in on Paris", { "entities": [[11, 16, "GPE"]] }],
+	[
+		"Show satellite view of London",
+		{
+			"entities": [
+				[5, 14, "MAP_TYPE"],
+				[18, 24, "GPE"]
+			]
+		}
+	],
+	["Add a marker in Tokyo", { "entities": [[17, 22, "GPE"]] }],
+	[
+		"Zoom to vegetation map of New York",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile in Mumbai",
+		{
+			"entities": [
+				[9, 27, "MAP_TYPE"],
+				[31, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for air quality in Beijing",
+		{
+			"entities": [
+				[12, 23, "MAP_TYPE"],
+				[27, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to precipitation map of Sydney",
+		{
+			"entities": [
+				[7, 20, "MAP_TYPE"],
+				[24, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker to wildfire risk map of California",
+		{
+			"entities": [
+				[12, 26, "MAP_TYPE"],
+				[35, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from flood risk map of Houston",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[33, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from road map of Tokyo",
+		{
+			"entities": [
+				[13, 21, "MAP_TYPE"],
+				[25, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Alps",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 21, "GPE"]
+			]
+		}
+	],
+	["Add a marker in Rome", { "entities": [[17, 21, "GPE"]] }],
+	["Zoom in on vegetation map", { "entities": [[11, 21, "MAP_TYPE"]] }],
+	["Display temperature profile", { "entities": [[9, 27, "MAP_TYPE"]] }],
+	["Search for air quality", { "entities": [[12, 23, "MAP_TYPE"]] }],
+	["Pan to precipitation map", { "entities": [[7, 20, "MAP_TYPE"]] }],
+	["Add marker to wildfire risk map", { "entities": [[12, 26, "MAP_TYPE"]] }],
+	["Remove marker from flood risk map", { "entities": [[14, 28, "MAP_TYPE"]] }],
+	["Zoom out from road map", { "entities": [[13, 21, "MAP_TYPE"]] }],
+	["Show terrain map", { "entities": [[5, 11, "MAP_TYPE"]] }],
+	[
+		"Zoom in on satellite map of Paris",
+		{
+			"entities": [
+				[11, 20, "MAP_TYPE"],
+				[24, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of London",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker to temperature profile in Tokyo",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from air quality map of New York",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map of Mumbai",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to wildfire risk map of Beijing",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in flood risk map of Sydney",
+		{
+			"entities": [
+				[17, 30, "MAP_TYPE"],
+				[34, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from road map of California",
+		{
+			"entities": [
+				[14, 22, "MAP_TYPE"],
+				[26, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on terrain map of Houston",
+		{
+			"entities": [
+				[11, 19, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display satellite view of Alps",
+		{
+			"entities": [
+				[9, 22, "MAP_TYPE"],
+				[26, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for vegetation map of Rome",
+		{
+			"entities": [
+				[12, 26, "MAP_TYPE"],
+				[30, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to temperature profile in Paris",
+		{
+			"entities": [
+				[7, 24, "MAP_TYPE"],
+				[28, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker to air quality map of London",
+		{
+			"entities": [
+				[12, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from precipitation map in Tokyo",
+		{
+			"entities": [
+				[14, 32, "MAP_TYPE"],
+				[36, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from wildfire risk map of New York",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map of Mumbai",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[22, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Beijing",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on terrain map of Sydney",
+		{
+			"entities": [
+				[11, 19, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display satellite view of California",
+		{
+			"entities": [
+				[9, 22, "MAP_TYPE"],
+				[26, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker to vegetation map of Houston",
+		{
+			"entities": [
+				[12, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from temperature profile in Alps",
+		{
+			"entities": [
+				[14, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from air quality map of Rome",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map of Paris",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wildfire risk map of London",
+		{
+			"entities": [
+				[5, 23, "MAP_TYPE"],
+				[27, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to flood risk map of Tokyo",
+		{
+			"entities": [
+				[7, 20, "MAP_TYPE"],
+				[24, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in road map of Mumbai",
+		{
+			"entities": [
+				[17, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from terrain map of Beijing",
+		{
+			"entities": [
+				[14, 29, "MAP_TYPE"],
+				[33, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Sydney",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of California",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in Houston",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Alps",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Rome",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Paris",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road map of Tokyo",
+		{
+			"entities": [
+				[5, 12, "MAP_TYPE"],
+				[16, 21, "GPE"]
+			]
+		}
+	],
+	[
+		"Show terrain map of Mumbai",
+		{
+			"entities": [
+				[5, 11, "MAP_TYPE"],
+				[17, 23, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on satellite view of Beijing",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation map of Sydney",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Search for temperature profile in California",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Pan to air quality map of Houston",
+		{
+			"entities": [
+				[7, 21, "MAP_TYPE"],
+				[25, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Add marker in precipitation map of Alps",
+		{
+			"entities": [
+				[17, 33, "MAP_TYPE"],
+				[37, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Remove marker from wildfire risk map of Rome",
+		{
+			"entities": [
+				[14, 28, "MAP_TYPE"],
+				[32, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom out from flood risk map of London",
+		{
+			"entities": [
+				[13, 27, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show me the vegetation health map of Amazon rainforest",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[36, 53, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the temperature profile for Death Valley",
+		{
+			"entities": [
+				[12, 31, "MAP_TYPE"],
+				[36, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show the precipitation map of Seattle?",
+		{
+			"entities": [
+				[17, 29, "MAP_TYPE"],
+				[33, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"I need to see the soil moisture data for California",
+		{
+			"entities": [
+				[17, 30, "MAP_TYPE"],
+				[40, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Show the air quality map of Beijing",
+		{
+			"entities": [
+				[9, 20, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the land use/land cover information for New York City",
+		{
+			"entities": [
+				[12, 32, "MAP_TYPE"],
+				[48, 61, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a topographic map of the Himalayas?",
+		{
+			"entities": [
+				[11, 21, "MAP_TYPE"],
+				[29, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show me the hydrological map of the Mississippi River",
+		{
+			"entities": [
+				[12, 24, "MAP_TYPE"],
+				[32, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"I want to view satellite imagery of the Great Barrier Reef",
+		{
+			"entities": [
+				[15, 32, "MAP_TYPE"],
+				[40, 59, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the drought risk assessment for Australia",
+		{
+			"entities": [
+				[12, 23, "MAP_TYPE"],
+				[39, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show the wildfire risk map of California?",
+		{
+			"entities": [
+				[17, 30, "MAP_TYPE"],
+				[38, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"I need to see the flood risk zones in Netherlands",
+		{
+			"entities": [
+				[17, 26, "MAP_TYPE"],
+				[36, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Show the wind speed and direction map for Chicago",
+		{
+			"entities": [
+				[9, 34, "MAP_TYPE"],
+				[43, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the population density chart of India",
+		{
+			"entities": [
+				[12, 30, "MAP_TYPE"],
+				[40, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I view the road and infrastructure map of Germany?",
+		{
+			"entities": [
+				[12, 36, "MAP_TYPE"],
+				[44, 51, "GPE"]
+			]
+		}
+	],
+	[
+		"Show me the vegetation health index for the Sahara Desert",
+		{
+			"entities": [
+				[12, 28, "MAP_TYPE"],
+				[39, 52, "GPE"]
+			]
+		}
+	],
+	[
+		"I need a temperature profile of the Arctic Circle",
+		{
+			"entities": [
+				[9, 28, "MAP_TYPE"],
+				[36, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the precipitation patterns in the Amazon Basin",
+		{
+			"entities": [
+				[12, 24, "MAP_TYPE"],
+				[37, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show the soil moisture levels in the Midwest US?",
+		{
+			"entities": [
+				[17, 30, "MAP_TYPE"],
+				[41, 51, "GPE"]
+			]
+		}
+	],
+	[
+		"I want to see an air quality map of Los Angeles",
+		{
+			"entities": [
+				[18, 29, "MAP_TYPE"],
+				[33, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Show the land use/land cover changes in the Brazilian Amazon",
+		{
+			"entities": [
+				[9, 29, "MAP_TYPE"],
+				[41, 57, "GPE"]
+			]
+		}
+	],
+	[
+		"Display a topographic map of the Rocky Mountains",
+		{
+			"entities": [
+				[10, 20, "MAP_TYPE"],
+				[28, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I view the hydrological features of the Nile River Basin?",
+		{
+			"entities": [
+				[12, 24, "MAP_TYPE"],
+				[38, 55, "GPE"]
+			]
+		}
+	],
+	[
+		"Show me recent satellite imagery of the Greenland ice sheet",
+		{
+			"entities": [
+				[17, 34, "MAP_TYPE"],
+				[42, 62, "GPE"]
+			]
+		}
+	],
+	[
+		"I need to assess the drought risk in sub-Saharan Africa",
+		{
+			"entities": [
+				[20, 31, "MAP_TYPE"],
+				[35, 53, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the wildfire risk zones in Mediterranean Europe",
+		{
+			"entities": [
+				[12, 25, "MAP_TYPE"],
+				[35, 55, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show the flood risk areas along the Ganges River?",
+		{
+			"entities": [
+				[17, 26, "MAP_TYPE"],
+				[43, 56, "GPE"]
+			]
+		}
+	],
+	[
+		"I want to see wind speed and direction data for the Gulf Coast",
+		{
+			"entities": [
+				[15, 40, "MAP_TYPE"],
+				[49, 59, "GPE"]
+			]
+		}
+	],
+	[
+		"Show the population density map of Tokyo metropolitan area",
+		{
+			"entities": [
+				[9, 27, "MAP_TYPE"],
+				[31, 54, "GPE"]
+			]
+		}
+	],
+	[
+		"Display the road and infrastructure network of Singapore",
+		{
+			"entities": [
+				[12, 36, "MAP_TYPE"],
+				[47, 56, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of Brazil?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Russia",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map of India",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[21, 26, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Australia",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of China",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Germany?",
+		{
+			"entities": [
+				[11, 31, "MAP_TYPE"],
+				[35, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Canada",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 25, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Mexico",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of Japan",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of Spain?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wildfire risk map of California",
+		{
+			"entities": [
+				[5, 19, "MAP_TYPE"],
+				[23, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display flood risk map for Bangladesh",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wind speed and direction map of Argentina",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me population density map of Indonesia?",
+		{
+			"entities": [
+				[19, 36, "MAP_TYPE"],
+				[40, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map of France",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[33, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map for United States",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[29, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map of Egypt",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[30, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of South Korea?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on soil moisture map of Italy",
+		{
+			"entities": [
+				[11, 24, "MAP_TYPE"],
+				[28, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Show air quality map for New Zealand",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[21, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Display land use/land cover map of Thailand",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[32, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Present topographic map for Switzerland",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me hydrological map of Vietnam?",
+		{
+			"entities": [
+				[19, 31, "MAP_TYPE"],
+				[35, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map of Turkey",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[26, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map for Ethiopia",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map of Greece",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[26, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Netherlands?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wind speed and direction map of Iceland",
+		{
+			"entities": [
+				[11, 37, "MAP_TYPE"],
+				[41, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Show population density map for Singapore",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[27, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display road and infrastructure map of Portugal",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[36, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Present vegetation health map for Sweden",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me temperature profile map of Norway?",
+		{
+			"entities": [
+				[19, 37, "MAP_TYPE"],
+				[41, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map of Finland",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[21, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map for Denmark",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map of Belgium",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Austria?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on topographic map of Czech Republic",
+		{
+			"entities": [
+				[11, 21, "MAP_TYPE"],
+				[25, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show hydrological map for Hungary",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Display satellite imagery map of Romania",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present drought risk map for Bulgaria",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wildfire risk map of Croatia?",
+		{
+			"entities": [
+				[19, 33, "MAP_TYPE"],
+				[37, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map of Serbia",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 25, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map for Slovenia",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[39, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map of Slovakia",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of Lithuania?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on vegetation health map of Latvia",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Show temperature profile map for Estonia",
+		{
+			"entities": [
+				[5, 23, "MAP_TYPE"],
+				[28, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display precipitation map of Ukraine",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Moldova",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me air quality map of Belarus?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map of Georgia",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map for Armenia",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map of Azerbaijan",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Kazakhstan?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on drought risk map of Uzbekistan",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wildfire risk map for Turkmenistan",
+		{
+			"entities": [
+				[5, 19, "MAP_TYPE"],
+				[24, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display flood risk map of Kyrgyzstan",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wind speed and direction map for Tajikistan",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[39, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me population density map of Mongolia?",
+		{
+			"entities": [
+				[19, 36, "MAP_TYPE"],
+				[40, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map of North Korea",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[33, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map for Taiwan",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map of Philippines",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[30, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of Malaysia?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on soil moisture map of Cambodia",
+		{
+			"entities": [
+				[11, 24, "MAP_TYPE"],
+				[28, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Show air quality map for Laos",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[21, 25, "GPE"]
+			]
+		}
+	],
+	[
+		"Display land use/land cover map of Myanmar",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[32, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Present topographic map for Sri Lanka",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me hydrological map of Nepal?",
+		{
+			"entities": [
+				[19, 31, "MAP_TYPE"],
+				[35, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map of Bhutan",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[26, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map for Maldives",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map of Pakistan",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[26, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Afghanistan?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wind speed and direction map of Iran",
+		{
+			"entities": [
+				[11, 37, "MAP_TYPE"],
+				[41, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Show population density map for Iraq",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[27, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display road and infrastructure map of Saudi Arabia",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[36, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Present vegetation health map for United Arab Emirates",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[29, 51, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me temperature profile map of Oman?",
+		{
+			"entities": [
+				[19, 37, "MAP_TYPE"],
+				[41, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map of Yemen",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[21, 26, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map for Jordan",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map of Lebanon",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Syria?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on topographic map of Israel",
+		{
+			"entities": [
+				[11, 21, "MAP_TYPE"],
+				[25, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Show hydrological map for Palestine",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display satellite imagery map of Cyprus",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Present drought risk map for Morocco",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wildfire risk map of Algeria?",
+		{
+			"entities": [
+				[19, 33, "MAP_TYPE"],
+				[37, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map of Tunisia",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 26, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map for Libya",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[39, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map of Egypt",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of Sudan?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on vegetation health map of South Sudan",
+		{
+			"entities": [
+				[11, 27, "MAP_TYPE"],
+				[31, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Show temperature profile map for Eritrea",
+		{
+			"entities": [
+				[5, 23, "MAP_TYPE"],
+				[28, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display precipitation map of Djibouti",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Somalia",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me air quality map of Kenya?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map of Uganda",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map for Tanzania",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map of Rwanda",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Burundi?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on drought risk map of Democratic Republic of Congo",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 55, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Cameroon",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Gabon",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me precipitation map of Equatorial Guinea?",
+		{
+			"entities": [
+				[19, 31, "MAP_TYPE"],
+				[35, 53, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Republic of the Congo",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Angola",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map of Zambia",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map for Zimbabwe",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map of Malawi",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Mozambique?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Madagascar",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Comoros",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Mauritius",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Seychelles?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 59, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Namibia",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map of Botswana",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[33, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map for Lesotho",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map of Eswatini",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[30, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of South Africa?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map for Senegal",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map of Gambia",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map for Guinea-Bissau",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[33, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of Guinea?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of Sierra Leone",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map of Liberia",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map for Ivory Coast",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map of Burkina Faso",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[26, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Ghana?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wind speed and direction map for Togo",
+		{
+			"entities": [
+				[5, 31, "MAP_TYPE"],
+				[36, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Display population density map of Benin",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Present road and infrastructure map for Nigeria",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[37, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of Niger?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on temperature profile map of Chad",
+		{
+			"entities": [
+				[11, 29, "MAP_TYPE"],
+				[33, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map for Central African Republic",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map of South Sudan",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[25, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map for Mali",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Mauritania?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Western Sahara",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Cape Verde",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of United States?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wildfire risk map of Canada",
+		{
+			"entities": [
+				[11, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map for Mexico",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[20, 26, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map of Guatemala",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map for Belize",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of El Salvador?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 52, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Honduras",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Nicaragua",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Present precipitation map of Costa Rica",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me soil moisture map of Panama?",
+		{
+			"entities": [
+				[19, 32, "MAP_TYPE"],
+				[36, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Cuba",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map for Haiti",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[30, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map of Dominican Republic",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map for Jamaica",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Trinidad and Tobago?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 53, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Barbados",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Saint Lucia",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Grenada",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Saint Vincent and the Grenadines?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 82, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Antigua and Barbuda",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 52, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map for Saint Kitts and Nevis",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[34, 56, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map of Dominica",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[28, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map for Bahamas",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of Guyana?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map of Suriname",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[22, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map for French Guiana",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map of Venezuela",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[32, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of Colombia?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of Ecuador",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map for Peru",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[27, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map of Bolivia",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map for Paraguay",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Uruguay?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wind speed and direction map of Argentina",
+		{
+			"entities": [
+				[5, 31, "MAP_TYPE"],
+				[35, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Display population density map for Chile",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Present road and infrastructure map of Greenland",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[36, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of Iceland?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on temperature profile map of Norway",
+		{
+			"entities": [
+				[11, 29, "MAP_TYPE"],
+				[33, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map for Sweden",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map of Finland",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[25, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map for Denmark",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Estonia?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Latvia",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 25, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Lithuania",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of Belarus",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of Poland?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wildfire risk map of Germany",
+		{
+			"entities": [
+				[11, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map for Netherlands",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[20, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map of Belgium",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map for Luxembourg",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of France?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Switzerland",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Austria",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Present precipitation map of Czech Republic",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me soil moisture map of Slovakia?",
+		{
+			"entities": [
+				[19, 32, "MAP_TYPE"],
+				[36, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Hungary",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map for Slovenia",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[30, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map of Croatia",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map for Bosnia and Herzegovina",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Serbia?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Montenegro",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for North Macedonia",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Albania",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Greece?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 55, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Bulgaria",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Moldova",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Ukraine",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me precipitation map of Turkey?",
+		{
+			"entities": [
+				[19, 31, "MAP_TYPE"],
+				[35, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Cyprus",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Georgia",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map of Armenia",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map for Azerbaijan",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map of Iran",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Iraq?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Kuwait",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 26, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Saudi Arabia",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Bahrain",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Qatar?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 54, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of United Arab Emirates",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 54, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map for Oman",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[34, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map of Yemen",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[28, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map for Israel",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of Lebanon?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map for Jordan",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[23, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map of Syria",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map for Palestine",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[33, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of Egypt?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of Libya",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map of Tunisia",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map for Algeria",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map of Morocco",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Western Sahara?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wind speed and direction map for Mauritania",
+		{
+			"entities": [
+				[5, 31, "MAP_TYPE"],
+				[36, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Display population density map of Mali",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present road and infrastructure map for Niger",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[37, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of Chad?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on temperature profile map of Sudan",
+		{
+			"entities": [
+				[11, 29, "MAP_TYPE"],
+				[33, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map for Eritrea",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map of Djibouti",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[25, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map for Ethiopia",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Somalia?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Kenya",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 24, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Uganda",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of Rwanda",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of Burundi?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wildfire risk map of Tanzania",
+		{
+			"entities": [
+				[11, 25, "MAP_TYPE"],
+				[29, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map for Mozambique",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[20, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map of Madagascar",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map for Comoros",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of Mauritius?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Seychelles",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for South Africa",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Present precipitation map of Namibia",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me soil moisture map of Botswana?",
+		{
+			"entities": [
+				[19, 32, "MAP_TYPE"],
+				[36, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Zimbabwe",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map for Zambia",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[30, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map of Malawi",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map for Angola",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Democratic Republic of the Congo?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 68, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Republic of the Congo",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Gabon",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Equatorial Guinea",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Cameroon?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 57, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Nigeria",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map for Benin",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[34, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map of Togo",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[28, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map for Ghana",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of Ivory Coast?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map of Liberia",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map for Sierra Leone",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map of Guinea",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[32, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of Guinea-Bissau?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of Senegal",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map for Gambia",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[27, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map of Cape Verde",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map for Burkina Faso",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Central African Republic?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 54, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wind speed and direction map of South Sudan",
+		{
+			"entities": [
+				[5, 31, "MAP_TYPE"],
+				[35, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Display population density map for S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 51, "GPE"]
+			]
+		}
+	],
+	[
+		"Present road and infrastructure map of Lesotho",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[36, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of Eswatini?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on temperature profile map of Iceland",
+		{
+			"entities": [
+				[11, 29, "MAP_TYPE"],
+				[33, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map for Faroe Islands",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map of Gibraltar",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[25, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map for Guernsey",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Jersey?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Isle of Man",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Malta",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of Monaco",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of San Marino?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wildfire risk map of Vatican City",
+		{
+			"entities": [
+				[11, 25, "MAP_TYPE"],
+				[29, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map for Liechtenstein",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[20, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map of Andorra",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map for Kosovo",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of Northern Cyprus?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 57, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Abkhazia",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for South Ossetia",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Present precipitation map of Transnistria",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me soil moisture map of Nagorno-Karabakh?",
+		{
+			"entities": [
+				[19, 32, "MAP_TYPE"],
+				[36, 52, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Artsakh",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Somaliland",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Puntland",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me precipitation map of Zanzibar?",
+		{
+			"entities": [
+				[19, 31, "MAP_TYPE"],
+				[35, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Catalonia",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Basque Country",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map of Scotland",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[29, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map for Wales",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map of Northern Ireland",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of England?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Corsica",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 27, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Sardinia",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Sicily",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 28, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Crete?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 54, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Azores",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map for Madeira",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[34, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map of Canary Islands",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[28, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map for Balearic Islands",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of \u00c5land Islands?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map for Svalbard",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[23, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map of Falkland Islands",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map for Greenland",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[33, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of New Caledonia?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of French Polynesia",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map of Guam",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[26, 30, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map for American Samoa",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map of Northern Mariana Islands",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[26, 51, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of U.S. Virgin Islands?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wind speed and direction map for Puerto Rico",
+		{
+			"entities": [
+				[5, 31, "MAP_TYPE"],
+				[36, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Display population density map of Guadeloupe",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Present road and infrastructure map for Martinique",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[37, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of French Guiana?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 52, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on temperature profile map of R\u00e9union",
+		{
+			"entities": [
+				[11, 29, "MAP_TYPE"],
+				[33, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map for Mayotte",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 29, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map of Sint Maarten",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[25, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map for Cura\u00e7ao",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 31, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Aruba?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Bonaire",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 26, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Anguilla",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 33, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of Bermuda",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of Cayman Islands?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wildfire risk map of Montserrat",
+		{
+			"entities": [
+				[11, 25, "MAP_TYPE"],
+				[29, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map for Turks and Caicos Islands",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[20, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map of British Virgin Islands",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 61, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map for Cook Islands",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of Niue?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 45, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Tokelau",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 32, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Wallis and Futuna",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Present precipitation map of Pitcairn Islands",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me soil moisture map of Saint Helena?",
+		{
+			"entities": [
+				[19, 32, "MAP_TYPE"],
+				[36, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Ascension Island",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map for Tristan da Cunha",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[30, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map of South Georgia",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map for South Sandwich Islands",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of British Indian Ocean Territory?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 65, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Saint Pierre and Miquelon",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Saint Barth\u00e9lemy",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Saint Martin",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 34, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of New Amsterdam Island?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 71, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Kerguelen Islands",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map for Crozet Islands",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[34, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map of Heard Island",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[28, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map for McDonald Islands",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of Norfolk Island?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map of Cocos (Keeling) Islands",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[22, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map for Christmas Island",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map of Ashmore and Cartier Islands",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[32, 59, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of Coral Sea Islands?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 51, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of Spratly Islands",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map for Paracel Islands",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[27, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map of Senkaku Islands",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map for Kuril Islands",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Ryukyu Islands?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show wind speed and direction map of Okinawa",
+		{
+			"entities": [
+				[5, 31, "MAP_TYPE"],
+				[35, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Display population density map for Ogasawara Islands",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Present road and infrastructure map of Easter Island",
+		{
+			"entities": [
+				[8, 32, "MAP_TYPE"],
+				[36, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me vegetation health map of Juan Fern\u00e1ndez Islands?",
+		{
+			"entities": [
+				[19, 35, "MAP_TYPE"],
+				[39, 61, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on temperature profile map of Gal\u00e1pagos Islands",
+		{
+			"entities": [
+				[11, 29, "MAP_TYPE"],
+				[33, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Show precipitation map for Desventuradas Islands",
+		{
+			"entities": [
+				[5, 17, "MAP_TYPE"],
+				[22, 44, "GPE"]
+			]
+		}
+	],
+	[
+		"Display soil moisture map of Revillagigedo Islands",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[25, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Present air quality map for Aleutian Islands",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a land use/land cover map of Pratas Island?",
+		{
+			"entities": [
+				[13, 33, "MAP_TYPE"],
+				[37, 50, "GPE"]
+			]
+		}
+	],
+	[
+		"Show topographic map of Macclesfield Bank",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[19, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Display hydrological map for Scarborough Shoal",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[25, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Present satellite imagery map of Fiery Cross Reef",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[29, 46, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me drought risk map of Mischief Reef?",
+		{
+			"entities": [
+				[19, 30, "MAP_TYPE"],
+				[34, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on wildfire risk map of Subi Reef",
+		{
+			"entities": [
+				[11, 25, "MAP_TYPE"],
+				[29, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Show flood risk map for Johnson South Reef",
+		{
+			"entities": [
+				[5, 15, "MAP_TYPE"],
+				[20, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wind speed and direction map of Hughes Reef",
+		{
+			"entities": [
+				[8, 34, "MAP_TYPE"],
+				[38, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Present population density map for Gaven Reefs",
+		{
+			"entities": [
+				[8, 25, "MAP_TYPE"],
+				[30, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a road and infrastructure map of Cuarteron Reef?",
+		{
+			"entities": [
+				[13, 37, "MAP_TYPE"],
+				[41, 55, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Swallow Reef",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 37, "GPE"]
+			]
+		}
+	],
+	[
+		"Show vegetation health map of Palmyra Atoll",
+		{
+			"entities": [
+				[5, 21, "MAP_TYPE"],
+				[25, 38, "GPE"]
+			]
+		}
+	],
+	[
+		"Display temperature profile map for Baker Island",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me precipitation map of Howland Island?",
+		{
+			"entities": [
+				[19, 31, "MAP_TYPE"],
+				[35, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Present soil moisture map for Jarvis Island",
+		{
+			"entities": [
+				[8, 21, "MAP_TYPE"],
+				[26, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on air quality map of Johnston Atoll",
+		{
+			"entities": [
+				[11, 22, "MAP_TYPE"],
+				[26, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show land use/land cover map of Kingman Reef",
+		{
+			"entities": [
+				[5, 25, "MAP_TYPE"],
+				[29, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Display topographic map for Midway Atoll",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[23, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Present hydrological map of Wake Island",
+		{
+			"entities": [
+				[8, 20, "MAP_TYPE"],
+				[24, 35, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a satellite imagery map of Navassa Island?",
+		{
+			"entities": [
+				[13, 30, "MAP_TYPE"],
+				[34, 48, "GPE"]
+			]
+		}
+	],
+	[
+		"Show drought risk map of Bajo Nuevo Bank",
+		{
+			"entities": [
+				[5, 16, "MAP_TYPE"],
+				[20, 36, "GPE"]
+			]
+		}
+	],
+	[
+		"Display wildfire risk map for Serranilla Bank",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[27, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Present flood risk map of Clipperton Island",
+		{
+			"entities": [
+				[8, 18, "MAP_TYPE"],
+				[22, 40, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me wind speed and direction map of Bouvet Island?",
+		{
+			"entities": [
+				[19, 45, "MAP_TYPE"],
+				[49, 62, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on population density map of Peter I Island",
+		{
+			"entities": [
+				[11, 28, "MAP_TYPE"],
+				[32, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Show road and infrastructure map for Queen Maud Land",
+		{
+			"entities": [
+				[5, 29, "MAP_TYPE"],
+				[34, 49, "GPE"]
+			]
+		}
+	],
+	[
+		"Display vegetation health map of Marie Byrd Land",
+		{
+			"entities": [
+				[8, 24, "MAP_TYPE"],
+				[28, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Present temperature profile map for Ross Dependency",
+		{
+			"entities": [
+				[8, 26, "MAP_TYPE"],
+				[31, 47, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a precipitation map of Ad\u00e9lie Land?",
+		{
+			"entities": [
+				[13, 25, "MAP_TYPE"],
+				[29, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Show soil moisture map for Tierra del Fuego",
+		{
+			"entities": [
+				[5, 18, "MAP_TYPE"],
+				[23, 39, "GPE"]
+			]
+		}
+	],
+	[
+		"Display air quality map of Fernando de Noronha",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[23, 42, "GPE"]
+			]
+		}
+	],
+	[
+		"Present land use/land cover map for Trindade and Martim Vaz",
+		{
+			"entities": [
+				[8, 28, "MAP_TYPE"],
+				[33, 58, "GPE"]
+			]
+		}
+	],
+	[
+		"Can you show me topographic map of Saint Helena, Ascension and Tristan da Cunha?",
+		{
+			"entities": [
+				[19, 29, "MAP_TYPE"],
+				[33, 78, "GPE"]
+			]
+		}
+	],
+	[
+		"Zoom in on hydrological map of South Georgia and the South Sandwich Islands",
+		{
+			"entities": [
+				[11, 23, "MAP_TYPE"],
+				[27, 72, "GPE"]
+			]
+		}
+	],
+	[
+		"Show satellite imagery map of Glorioso Islands",
+		{
+			"entities": [
+				[5, 22, "MAP_TYPE"],
+				[26, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Display drought risk map for Juan de Nova Island",
+		{
+			"entities": [
+				[8, 19, "MAP_TYPE"],
+				[24, 43, "GPE"]
+			]
+		}
+	],
+	[
+		"Present wildfire risk map of Tromelin Island",
+		{
+			"entities": [
+				[8, 22, "MAP_TYPE"],
+				[26, 41, "GPE"]
+			]
+		}
+	],
+	[
+		"Can I see a flood risk map of Bassas da India?",
+		{
+			"entities": [
+				[13, 23, "MAP_TYPE"],
+				[27, 42, "GPE"]
+			]
+		}
+	]
+]
