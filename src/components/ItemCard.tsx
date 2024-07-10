@@ -35,9 +35,9 @@ const ItemCard = ({
 	const onSave = async () => {
 		try {
 			toast({
-				title: 'Saving File',
+				title: 'Saving In Progress',
 				description:
-					'Please wait while we save the file. This may take a few seconds.',
+					'Please wait while we save this entry, this may take a few seconds',
 			});
 			setIsLoading(true);
             await updateSingleItem(item.id, {
@@ -46,8 +46,7 @@ const ItemCard = ({
             })	
 			setIsLoading(false);
 			toast({
-				title: 'Success',
-				description: 'File saved successfully',
+				title: 'Entry Saved Successfully',
 			});
 		} catch (e) {
 			toast({

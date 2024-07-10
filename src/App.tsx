@@ -13,6 +13,7 @@ function App() {
   const [ dataset, setDataset ] = useState<Item[]>([]);
 
   useEffect(() => {
+    if(dataset.length > 0) return; 
     (async () => { 
       const resp = (await getDataset());
       if(!resp) return;
@@ -21,23 +22,18 @@ function App() {
   }, [])
   
   useEffect(() => {
-    if(dataset.length === 0) return;
-    supabase.channel('items').on('postgres_changes', { event: '*', schema: '*' }, (payload) => {
+    supabase.channel('items').on('postgres_changes', { event: '*', schema: '*' }, async (payload) => {
+      console.log('payload',payload);
       if (payload.eventType === 'UPDATE') {
-        const updatedItem = payload.new as Item;
-        
-        const updatedItemIndex = dataset.findIndex((item) => item.id === updatedItem.id);
-      
-      
-        const updatedDataset = [ ...dataset ];
-        updatedDataset[ updatedItemIndex ] = updatedItem;
-        setDataset(updatedDataset);
+        const resp = (await getDataset());
+        if(!resp) return;
+        setDataset(resp);
       } 
     }).subscribe();
    }, [])
   
 	return (
-		<div className='grid grid-cols-3 gap-4 p-4'>
+		<div className='grid grid-cols-fluid gap-4 p-4'>
       {dataset.map((item, index) => (
         <ItemCard index={index} dataset={dataset} setDataset={setDataset} item={item} key={index} />
       ))}
