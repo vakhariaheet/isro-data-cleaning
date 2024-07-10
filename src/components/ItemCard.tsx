@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useState } from 'react';
+import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { getFormattedDate, parseItem, updateSingleItem } from '../lib/utils';
 import {
 	Card,
@@ -22,7 +22,7 @@ export interface Item extends ReturnType<typeof parseItem> {
 const ItemCard = ({
 	item,
 	index,
-
+    dataset
 }: {
 	item: Item;
 	index: number;
@@ -45,9 +45,7 @@ const ItemCard = ({
                 last_updated: new Date().toISOString(),
             })	
 			setIsLoading(false);
-			toast({
-				title: 'Entry Saved Successfully',
-			});
+			
 		} catch (e) {
 			toast({
 				title: 'Error',
@@ -58,7 +56,9 @@ const ItemCard = ({
 			setIsLoading(false);
 		}
 	};
-
+    useEffect(() => {
+        setEntities(item.entities);
+    },[dataset])
 	return (
 		<Card>
 			<CardHeader>
@@ -70,13 +70,14 @@ const ItemCard = ({
 						<Input
 							value={entity.value}
 							onChange={(e) => {
+								const val = e.target.value.trim();
 								const updatedEntities = [...entities];
-								const startIndex = item.transcript.indexOf(e.target.value);
+								const startIndex = item.transcript.indexOf(val);
 								const endIndex =
-									startIndex === -1 ? -1 : startIndex + e.target.value.length;
+									startIndex === -1 ? -1 : startIndex + val.length;
 								updatedEntities[index] = {
 									...updatedEntities[index],
-									value: e.target.value,
+									value: val,
 									indices: [startIndex, endIndex],
 								};
 								setEntities(updatedEntities);
