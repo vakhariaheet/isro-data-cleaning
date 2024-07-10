@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
-import { cn, getFormattedDate, parseItem, updateSingleItem } from '../lib/utils';
+import { cn, getFormattedDate, parseItem, updateSingleItem, } from '../lib/utils';
 import {
 	Card,
 	CardContent,
@@ -10,7 +10,7 @@ import {
 import { Input } from './ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger } from './ui/select';
 import { Button } from './ui/button';
-import { Clock, Loader2, Trash2 } from 'lucide-react';
+import { Clock, Loader2, Trash2,ShieldAlert } from 'lucide-react';
 import { useToast } from './ui/use-toast';
 import { Alert, AlertDescription, AlertTitle } from './ui/alert';
 
@@ -30,9 +30,11 @@ const ItemCard = ({
 	dataset: Item[];
 }) => {
 	const [entities, setEntities] = useState(item.entities);
-	const [isLoading, setIsLoading] = useState(false);
+	const [ isLoading, setIsLoading ] = useState(false);
+	const [isError, setIsError] = useState(false);
 	const { toast } = useToast();
 	const onSave = async () => {
+		if(isLoading || isError) return;
 		try {
 			toast({
 				className: cn(
@@ -71,11 +73,16 @@ const ItemCard = ({
 				{entities.map((entity, index) => (
 					<div className='flex gap-4 mb-4'>
 						<Input
+							endAdornment={<span className='text-muted-foreground'>Value</span>}
 							value={entity.value}
 							onChange={(e) => {
 								const val = e.target.value.trim();
 								const updatedEntities = [...entities];
 								const startIndex = item.transcript.indexOf(val);
+								if (startIndex === -1) {
+									setIsError(true);
+									return;
+								}
 								const endIndex =
 									startIndex === -1 ? -1 : startIndex + val.length;
 								updatedEntities[index] = {
@@ -85,7 +92,9 @@ const ItemCard = ({
 								};
 								setEntities(updatedEntities);
 							}}
+							
 						/>
+						
 						<Select
 							onValueChange={(value) => {
 								const updatedEntities = [...entities];
@@ -115,8 +124,21 @@ const ItemCard = ({
 						>
 							<Trash2 />
 						</Button>
+						
 					</div>
 				))}
+				{
+					isError && (
+						<Alert>
+							<AlertTitle>
+								<ShieldAlert className='mr-2 h-4 w-4' />
+								Error</AlertTitle>
+							<AlertDescription>
+								An entity value does not exist in the transcript
+							</AlertDescription>
+						</Alert>
+					)
+				}
 				{item.last_updated && (
 					<Alert>
 						<Clock className='mr-2 h-4 w-4' />
@@ -144,7 +166,7 @@ const ItemCard = ({
 				>
 					Add Entity
 				</Button>
-				<Button onClick={onSave} variant={'outline'} disabled={isLoading}>
+				<Button onClick={onSave} variant={'outline'} disabled={isLoading || isError}>
 					{isLoading && <Loader2 className='mr-2 h-4 w-4 animate-spin' />}
 					Save
 				</Button>
