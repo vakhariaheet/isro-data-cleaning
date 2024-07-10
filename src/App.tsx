@@ -9,7 +9,7 @@ import { toast } from './components/ui/use-toast';
 function App() {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const [dataset, setDataset] = useState<Item[]>([]);
-
+	const [currentItem, setCurrentItem] = useState<number>(0);
 	useEffect(() => {
 		(async () => {
 			if (dataset.length === 0) {
@@ -69,6 +69,8 @@ function App() {
 					dataset={dataset}
 					setDataset={setDataset}
 					item={item}
+					currentItem={currentItem}
+					setCurrentItem={setCurrentItem}
 					key={index}
 				/>
 			))}

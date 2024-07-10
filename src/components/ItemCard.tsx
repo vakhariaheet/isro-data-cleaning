@@ -22,11 +22,15 @@ export interface Item extends ReturnType<typeof parseItem> {
 const ItemCard = ({
 	item,
 	index,
-    dataset
+	dataset,
+	setCurrentItem,
+	currentItem
 }: {
 	item: Item;
 	index: number;
-	setDataset: Dispatch<SetStateAction<Item[]>>;
+		setDataset: Dispatch<SetStateAction<Item[]>>;
+		currentItem: number;
+		setCurrentItem: Dispatch<SetStateAction<number>>;
 	dataset: Item[];
 }) => {
 	const [entities, setEntities] = useState(item.entities);
@@ -50,7 +54,7 @@ const ItemCard = ({
                 last_updated: new Date().toISOString(),
             })	
 			setIsLoading(false);
-			
+			setCurrentItem(0);
 		} catch (e) {
 			toast({
 				title: 'Error',
@@ -59,14 +63,16 @@ const ItemCard = ({
 			});
 			console.error(e);
 			setIsLoading(false);
+			setCurrentItem(0);
 		}
 	};
     useEffect(() => {
+		if(currentItem !== item.id) return;
         setEntities(item.entities);
 	}, [ dataset ])
 	
 	useEffect(() => {
-		console.log('entities', entities);
+		
 		const val = entities.every((entity) => { 
 			const startIndex = item.transcript.indexOf(entity.value);
 			if (startIndex === -1) {
@@ -92,7 +98,7 @@ const ItemCard = ({
 								const val = e.target.value.trim();
 								const updatedEntities = [...entities];
 								const startIndex = item.transcript.indexOf(val);
-								
+								setCurrentItem(item.id);
 								const endIndex =
 									startIndex === -1 ? -1 : startIndex + val.length;
 								updatedEntities[index] = {
@@ -152,7 +158,7 @@ const ItemCard = ({
 				{item.last_updated && (
 					<Alert className='mt-4'>
 						
-						<AlertTitle>
+						<AlertTitle className='flex'>
 						<Clock className='mr-2 h-4 w-4' />
 							Last Updated</AlertTitle>
 						<AlertDescription>
