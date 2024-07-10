@@ -63,7 +63,20 @@ const ItemCard = ({
 	};
     useEffect(() => {
         setEntities(item.entities);
-    },[dataset])
+	}, [ dataset ])
+	
+	useEffect(() => {
+		console.log('entities', entities);
+		const val = entities.every((entity) => { 
+			const startIndex = item.transcript.indexOf(entity.value);
+			if (startIndex === -1) {
+				setIsError(true);
+				return false;
+			}
+			return true;
+		})
+		if(val) setIsError(false);
+	},[entities])
 	return (
 		<Card>
 			<CardHeader>
@@ -79,10 +92,7 @@ const ItemCard = ({
 								const val = e.target.value.trim();
 								const updatedEntities = [...entities];
 								const startIndex = item.transcript.indexOf(val);
-								if (startIndex === -1) {
-									setIsError(true);
-									return;
-								}
+								
 								const endIndex =
 									startIndex === -1 ? -1 : startIndex + val.length;
 								updatedEntities[index] = {
@@ -140,9 +150,11 @@ const ItemCard = ({
 					)
 				}
 				{item.last_updated && (
-					<Alert>
+					<Alert className='mt-4'>
+						
+						<AlertTitle>
 						<Clock className='mr-2 h-4 w-4' />
-						<AlertTitle>Last Updated</AlertTitle>
+							Last Updated</AlertTitle>
 						<AlertDescription>
 							{getFormattedDate(item.last_updated)}
 						</AlertDescription>
@@ -151,7 +163,7 @@ const ItemCard = ({
 			</CardContent>
 			<CardFooter>
                 <Button
-                    className='mr-4'
+                    className='mr-4 '
 					onClick={() => {
 						setEntities([
 							...entities,
