@@ -44,6 +44,7 @@ function App() {
 							const updatedDataset = [...data];
 							updatedDataset[updatedItemIndex] = updatedItem;
 							setDataset(updatedDataset);
+							data = updatedDataset;
 							toast({
 								draggable: true,
 								title: 'Update',
