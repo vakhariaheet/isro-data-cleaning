@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-import { getDataset, supabase } from './lib/utils';
+import { cn, getDataset, supabase } from './lib/utils';
 import ItemCard, { Item } from './components/ItemCard';
 import { Toaster } from './components/ui/toaster';
 import { toast } from './components/ui/use-toast';
@@ -46,6 +46,9 @@ function App() {
 							setDataset(updatedDataset);
 							data = updatedDataset;
 							toast({
+								className: cn(
+									'top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4'
+								),
 								draggable: true,
 								title: 'Update',
 								description: `'${payload.new.id %600}. ${payload.new.transcript}'

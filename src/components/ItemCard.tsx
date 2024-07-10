@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
-import { getFormattedDate, parseItem, updateSingleItem } from '../lib/utils';
+import { cn, getFormattedDate, parseItem, updateSingleItem } from '../lib/utils';
 import {
 	Card,
 	CardContent,
@@ -35,6 +35,9 @@ const ItemCard = ({
 	const onSave = async () => {
 		try {
 			toast({
+				className: cn(
+					'top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4'
+				),
 				title: 'Saving In Progress',
 				description:
 					'Please wait while we save this entry, this may take a few seconds',
