@@ -73,7 +73,7 @@ const ItemCard = ({
 				{entities.map((entity, index) => (
 					<div className='flex gap-4 mb-4'>
 						<Input
-							endAdornment={<span className='text-muted-foreground'>Value</span>}
+							
 							value={entity.value}
 							onChange={(e) => {
 								const val = e.target.value.trim();
