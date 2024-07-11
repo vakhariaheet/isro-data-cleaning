@@ -21,22 +21,24 @@ export interface Item extends ReturnType<typeof parseItem> {
 
 const ItemCard = ({
 	item,
-	index,
 	dataset,
-	setCurrentItem,
-	currentItem
+	
 }: {
 	item: Item;
 	index: number;
 		setDataset: Dispatch<SetStateAction<Item[]>>;
-		currentItem: number;
-		setCurrentItem: Dispatch<SetStateAction<number>>;
+
 	dataset: Item[];
 }) => {
 	const [entities, setEntities] = useState(item.entities);
 	const [ isLoading, setIsLoading ] = useState(false);
 	const [isError, setIsError] = useState(false);
 	const { toast } = useToast();
+
+	useEffect(() => {
+		setIsError(item.entities.some(entity => entity.value.endsWith(' ') || entity.value.startsWith(' ')))
+	},[])
+
 	const onSave = async () => {
 		if(isLoading || isError) return;
 		try {
@@ -54,7 +56,7 @@ const ItemCard = ({
                 last_updated: new Date().toISOString(),
             })	
 			setIsLoading(false);
-			setCurrentItem(0);
+			
 		} catch (e) {
 			toast({
 				title: 'Error',
@@ -63,11 +65,12 @@ const ItemCard = ({
 			});
 			console.error(e);
 			setIsLoading(false);
-			setCurrentItem(0);
+			
 		}
 	};
-    useEffect(() => {
-		if(currentItem !== item.id) return;
+	useEffect(() => {
+		
+		// if (currentItem !== item.id) return setEntities(entities);
         setEntities(item.entities);
 	}, [ dataset ])
 	
@@ -86,7 +89,7 @@ const ItemCard = ({
 	return (
 		<Card>
 			<CardHeader>
-				<CardTitle>{index + 1}. {item.transcript}</CardTitle>
+				<CardTitle>{item.id % 600}. {item.transcript}</CardTitle>
 			</CardHeader>
 			<CardContent>
 				{entities.map((entity, index) => (
@@ -98,7 +101,7 @@ const ItemCard = ({
 								const val = e.target.value.trim();
 								const updatedEntities = [...entities];
 								const startIndex = item.transcript.indexOf(val);
-								setCurrentItem(item.id);
+								
 								const endIndex =
 									startIndex === -1 ? -1 : startIndex + val.length;
 								updatedEntities[index] = {
